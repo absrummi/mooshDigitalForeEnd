@@ -46,15 +46,116 @@ body{
   
    
 }
+
+.homeLanding .row {
+    margin-top: 110px;
+}
 .homeLanding .row .col-lg-7 {
     display: flex;
 }
+.homeLanding .row .col-lg-7 > div {
+   
+  
+}
 .homeLanding .row .col-lg-7 > div > img{
-    display: inline-block;
+   
     width: 316px;
     height: 285px;
-    padding: 0px 0px 0px 0px;
-    margin: 0x 0px 0px 0px;
+    margin: 90px 0px 0px -183px;
+   
+}
+.homeLanding .row .col-lg-7 > div .heading {
+   
+    float: left;
+    font-size:64px ;
+    font-weight: 600;
+    color:#FFFFFF ;
+    margin-top: 0.5em;
+   
+}
+.homeLanding .row .col-lg-7 > div .descp {
+   
+    float: left;
+    font-size:20px ;
+    color:#FFFFFF;
+    margin-top: 1em;
+   
+}
+.join-us {
+    padding-top: 98px;
+    padding-bottom: 0px;
+   
+}
+.RDD{
+    
+    background-color: #353535;
+    padding-top: 84px;
+    border-radius: 15px;
+    padding-left: 74px;
+    padding-bottom: 57px;
+}
+.join-us .title {
+    font-size: 64px;
+    font-family: 'Open Sans',  arial,  sans-serif;
+    color: #F8F8F8;
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+.section .container-fluid .row .col-lg-11{
+    padding: 24px;
+}
+/* .join-us .container-fluid{
+    padding :0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+   
+}
+.rowTop{
+    display: flex;
+} */
+.flimPattern{
+    transform: scaleX(-1);
+    height:285px ;
+    width: 253.17px ;
+}
+.join-us .intro {
+    
+    margin: 0 auto;
+    margin-bottom: 148px;
+    color: #797979;
+    font-weight: 300;
+    font-size: 26px;
+    font-family: Open Sans;
+}
+.join-us .info {
+    margin-bottom: 30px;
+}
+
+.join-us .info .name{
+    color: #F8F8F8;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.join-us .info  > p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #797979;
+}
+
+.join-us .info  .description{
+    font-size: 20px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+
+.join-us .partner {
+    margin-bottom: 30px;
+}
+.join-us .partner .sub-title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #505c70;
 }
 .contactUsForm{
     padding: 10em 0em 0em 0em;
