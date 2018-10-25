@@ -6,9 +6,10 @@
  * Website: http://themes.3rdwavemedia.com/
  * Twitter: @3rdwave_themes
 */body {
-    font-family: 'Merriweather Sans',  arial,  sans-serif;
-    color: #666;
+    font-family: 'Source Sans Pro',Source Sans Pro, sans-serif;
+    color: #FFFFFF;
     font-size: 16px;
+         font-weight: lighter;
     background-color: #292929;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -18,18 +19,22 @@ p {
     line-height: 1.5;
 }
 .half-circle {
-    width: 300px;
-    height: 150px;
+    width: 526px;
+    height: 526px;
     background-color: #353535;
-    border-bottom-right-radius: 240px;
-    border-bottom-left-radius: 240px;
-    margin-left: -58px;
-    margin-top: -55px;
-    padding-left: 95px;
-    padding-top: 89px;
+    border-radius: 50%;
+    margin-left: -7.5em;
+    margin-top: -15.5em;
+    padding-left: 8em;
+    padding-top: 16.4em;
     border-left: 0;
     display: inline-block;
-    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -83,7 +88,6 @@ a:focus {
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
-    font-weight: bold;
 }
 .btn .svg-inline--fa, a.btn .svg-inline--fa {
     color: #fff;
@@ -314,8 +318,8 @@ body.no-header-wrapper {
     padding: 0px inherit;
 }
 .header.header-shrink h1.logo {
-    font-size: 20px;
-    line-height: 2.4;
+    font-size: 25px;
+    line-height: 4.4;
 }
 .header.header-shrink .main-nav .nav .nav-item {
     font-size: 12px;
@@ -340,7 +344,7 @@ body.no-header-wrapper {
     color: #71c4e0;
 }
 .header .main-nav {
-    padding: 0;
+    padding: 1.4em 0em 0em 0em;
 }
 .header .main-nav .navbar-toggler {
     background: none;
@@ -354,23 +358,32 @@ body.no-header-wrapper {
 }
 .header .main-nav .nav .nav-item {
     font-weight: normal;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-size: 13px;
     margin-right: 15px;
 }
 .header .main-nav .nav .nav-item.active>.nav-link {
-    color: #71c4e0;
+      color: #FFFFFF;
     background: none;
-    font-weight: bold;
+    font-size: 20px;
+    opacity: 0.87;
+    font-weight: 600;
 }
 .header .main-nav .nav .nav-item .nav-link {
-    color: #fff;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-size: 18px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+    opacity: 0.7;
+}
+.header .main-nav .nav .nav-item .nav-link .btn{
+    color: aqua;
+
 }
 .header .main-nav .nav .nav-item .nav-link:hover {
-    color: #71c4e0;
-    background: none;
+    
 }
 .header .main-nav .nav .nav-item .nav-link:focus {
     outline: none;
@@ -384,7 +397,7 @@ body.no-header-wrapper {
     color: #71c4e0;
 }
 .header .main-nav .nav .nav-item.last {
-    margin-right: 0;
+    /* margin-right: 0; */
 }
 .header .main-nav .nav.active {
     position: relative;
@@ -499,12 +512,14 @@ body.no-header-wrapper {
 
 .btn {
     border: 2px solid #FFFFFF;
+    padding:  0.16em;
     border-radius :28px;;
-   
-    color: black;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-size: 18px;
+    width: 171px;
+    height: 37px;
+    opacity: 0.87;
   }
   
   /* Green */
@@ -514,7 +529,6 @@ body.no-header-wrapper {
   }
   
   .success:hover {
-    background-color: #4CAF50;
     color: white;
   }
 
@@ -548,8 +562,8 @@ body.no-header-wrapper {
     font-weight: normal;
 }
 .who {
-  padding-top: 160px;
-  padding-bottom: 0px;
+    padding-top: 280px;
+    padding-bottom: 0px;
 }
 .who .title {
     font-size: 36px;
@@ -572,13 +586,33 @@ body.no-header-wrapper {
     padding-left: 0%;
 }
 .who .benefits .item {
-    margin-bottom: 60px;
+    margin-bottom: 25px;
     padding-left: 0%;
     padding-right: 0%;
     background-color: transparent;
     color: #FFFFFF;
     font-size: 64px;
     font-family: 'Source Sans Pro';
+    font-weight: bold;
+    line-height: 1.4;
+}
+.who .benefits .item > div
+{
+    padding-left: 0em;
+    padding-right: 0em;
+}
+.who .benefits .item .item-inner .svgSide{
+    height: 0%;
+    width: 104%;
+    
+
+}
+.who .benefits .item .item-inner > img {
+
+   
+    height: 285  px;
+    width : 316.66  px;
+
 }
 .who .benefits .fs1 {
     font-size: 20px;
@@ -586,9 +620,9 @@ body.no-header-wrapper {
     font-family: 'Source Sans Pro','Regular'; 
 }
 .who .benefits .item-inner {
-    padding: 0px;
-    padding-top: 45px;
-    height: 100%}
+    /* padding-top: 44px; */
+    margin-left: -34px;
+    height: 100%;}
 .who .benefits .sub-title {
     font-weight: bold;
     font-size: 18px;
@@ -1404,35 +1438,56 @@ body.no-header-wrapper {
     color: #fff;
 }
 .join-us {
-    padding: 80px 0;
+    padding-top: 98px;
+    padding-bottom: 0px;
    
 }
 .RDD{
     
     background-color: #353535;
-    padding: 40px;
+    padding-top: 84px;
     border-radius: 15px;
+    padding-left: 74px;
+    padding-bottom: 57px;
 }
 .join-us .title {
-    font-size: 36px;
+    font-size: 64px;
     font-family: 'Open Sans',  arial,  sans-serif;
-    font-weight: 800;
     color: #F8F8F8;
     margin-top: 0;
     margin-bottom: 6px;
 }
 .join-us .intro {
-    max-width: 700px;
+    
     margin: 0 auto;
-    margin-bottom: 60px;
+    margin-bottom: 148px;
     color: #797979;
     font-weight: 300;
-    font-size: 19px;
+    font-size: 26px;
     font-family: Open Sans;
 }
 .join-us .info {
     margin-bottom: 30px;
 }
+
+.join-us .info .name{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.join-us .info  > p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #797979;
+}
+
+.join-us .info  .description{
+    font-size: 20px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+
 .join-us .partner {
     margin-bottom: 30px;
 }
@@ -2359,7 +2414,7 @@ body.no-header-wrapper {
     min-height: 440px;
 }
 .navbar-expand-md .navbar-nav .nav-link {
-    padding-left: 15px;
+    padding-left: px;
     padding-right: 15px;
 }
 }@media (min-width: 992px) {
@@ -2380,11 +2435,11 @@ body.no-header-wrapper {
     margin: inherit;
 }
 .header .main-nav .nav .nav-item {
-    margin-right: 15px;
+    margin-right: 23px;
 }
 .main-nav.navbar-right {
     float: right !important;
-}
+}.who .benefits .item-inner
 .navbar-fixed-top .navbar-collapse {
     padding-left: 15px;
     padding-right: 15px;

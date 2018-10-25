@@ -14,6 +14,7 @@
     <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans:700,300italic,400italic,700italic,300,400' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
     <!-- FontAwesome JS-->
     <script type="text/javascript" src="assets/plugins/font-awesome/js/fontawesome-all.min.js"></script>
     <!-- Global CSS -->
@@ -27,17 +28,20 @@
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
     <link rel="stylesheet" href="assets/css/customMediaQ.css">
+    <link rel="stylesheet" href="assets/css/styleCustom.css">
 
 </head> 
 
 <body class="home-page">     
     <div class="header-wrapper header-wrapper-home">
         <!-- ******HEADER****** --> 
-        <header id="header" class="header fixed-top">  
+        <header id="header" class="header ">  
+            <!-- I have removed fixed-top this class friom above tag temporarly  -->
             <div class="container">       
                 <h1 class="logo">
-                    <a href="index-2.html"><span class="highlight"> <img src="assets/images/png/moosh-logo.png" alt=""></a>
-                   
+                    <!-- <a href="index-2.html"><span class="highlight"> <img src="assets/images/png/moosh-logo.png" alt=""></a> -->
+                        <!-- <div class="half-circle"> <span class="highlight"> <img src="assets/images/png/moosh-logo.png" alt=""></span></div> -->
+                      <div class="half-circle mdLogoEffect "> <span class="highlight"> <img src="assets/images/png/moosh-logo.png" alt=""></span></div>
                 </h1><!--//logo-->
                 <nav class="main-nav navbar navbar-expand-md navbar-dark" role="navigation">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +55,7 @@
                             <li class="nav-item"><a class="nav-link" href="blog.html">What We Do</a></li>
                             <li class="nav-item last"><a class="nav-link" href="contact.html">Media</a></li>
                             <li class="nav-item last"><a class="nav-link" href="contact.html">Blog</a></li>
-                            <li class="nav-item last"><a class="nav-link btn success" href="contact.html">Contact Us</a></li>
+                            <li class="nav-item last"><a class=" btn success" href="contact.html">Contact Us</a></li>
                         </ul><!--//nav-->
                     </div><!--//navabr-collapse-->
                 </nav><!--//main-nav-->
@@ -59,12 +63,18 @@
         </header><!--//header-->   
       
         <section id="who" class="who section">
-            <div class="container-fluid text-center">
-                <div class="row benefits text-center ">
-                    <div class="item col-lg-2 col-md-3 col-12 mediaQueryTest">
-                        <div class="item-inner">
-                            <img src="assets/images/png/side-patterns@2x.png" alt="">              
-                        </div>       
+            <div class="container-fluid">
+                <div class="row benefits ">
+                    <div class="item col-lg-1 col-md-3 col-12 mediaQueryTest">
+                            <div>
+                                    <div class="item-inner">
+                                            <!-- <img height="500" width="600" class="svgSide" src="assets/images/png/side-patterns (1).svg" alt="">      -->
+                                             <!-- In case If use svg in future class and setting is made         -->
+                                            <img src="assets/images/png/side-patterns@2x.png " alt=""> 
+                                        </div>   
+
+
+                            </div>
                     </div><!--//item-->
                     <div class=" col-lg-5 col-md-5 col-12">
                           <h1 class="item">Product<br> Development</h1>
@@ -78,10 +88,10 @@
                             </div>   
                         </div>                    -->
                     </div><!--//item-->
-                    <div class="item col-lg-5 col-md-4 col-12 mediaQueryTest ">
+                    <div class="item col-lg-6 col-md-4 col-12 mediaQueryTest ">
                         <div class="item-inner">
-                            <img style="height:342.14px ; width: 365.61px ;" src="assets/images/png/pattern_imgs.png" alt="">                        
-                        </div><!--//item-inner-->
+                            <img style="float: right; height:342.14px ; width: 365.61px ;" src="assets/images/png/pattern_imgs.png" alt="">                        
+                        </div>
                     </div><!--//item-->
 
                 </div><!--//row-->
@@ -126,10 +136,11 @@
             <div class="row RDD">
                 <div class="info col-lg-7 col-md-6 col-12">
                     <h3 class="name">Product Design</h3>
-                    <h4 class="role">PEOPLE DONT BUY FEATURES, THEY BUY EXPERIENCE</h4>
+                    <!-- <h4 class="role">PEOPLE DONT BUY FEATURES, THEY BUY EXPERIENCE</h4> -->
+                    <p>PEOPLE DONT BUY FEATURES, THEY BUY EXPERIENCE</p>
                     <p class="description">We deliver the product by going through certain proedures involing the delivery of the solutons to portenitai problems. Based on meticulously done research and collected dat; we design the product with precision, while also adding a bit of magic!</p>
                 </div>
-                <div class="partner col-lg-4 col-md-5 col-12 ml-lg-auto mr-lg-auto">
+                <div class="description col-lg-4 col-md-5 col-12 ml-lg-auto mr-lg-auto">
                     <p><i class="fa fa-arrow-right " ></i> Responsive Frontend </p>
                     <p><i class="fa fa-arrow-right" ></i> Performance Optimization </p>
                     <p><i class="fa fa-arrow-right" ></i> Hardware Integrations  </p>
@@ -140,46 +151,73 @@
             </div><!--//row-->
         </div><!--//row-->
     </section><!--//job-->
+   
+
     <section class="join-us section">
-        <div class="container">
-           <div class="row RDD">
-                <div class="info col-lg-7 col-md-6 col-12">
-                    <h3 class="name">Product Design</h3>
-                    <h4 class="role">PEOPLE DONT BUY FEATURES, THEY BUY EXPERIENCE</h4>
-                    <p class="description">We deliver the product by going through certain proedures involing the delivery of the solutons to portenitai problems. Based on meticulously done research and collected dat; we design the product with precision, while also adding a bit of magic!</p>
-                </div>
-                <div class="partner col-lg-4 col-md-5 col-12 ml-lg-auto mr-lg-auto">
-                    <p><i class="fa fa-arrow-right " ></i> Responsive Frontend </p>
-                    <p><i class="fa fa-arrow-right" ></i> Performance Optimization </p>
-                    <p><i class="fa fa-arrow-right" ></i> Hardware Integrations  </p>
-                    <p><i class="fa fa-arrow-right" ></i> Scalable Fronend and backend </p>
-                    <p><i class="fa fa-arrow-right" ></i> Scalable Fronend and backend</p>
-                    <p><i class="fa fa-arrow-right" ></i> Interactive prototype and Animation </p>
-                </div><!--//partner-->
+            <div class="container">
+                <div class="row RDD">
+                    <div class="info col-lg-7 col-md-6 col-12">
+                        <h3 class="name">Product Design</h3>
+                        <!-- <h4 class="role">PEOPLE DONT BUY FEATURES, THEY BUY EXPERIENCE</h4> -->
+                        <p>PEOPLE DONT BUY FEATURES, THEY BUY EXPERIENCE</p>
+                        <p class="description">We deliver the product by going through certain proedures involing the delivery of the solutons to portenitai problems. Based on meticulously done research and collected dat; we design the product with precision, while also adding a bit of magic!</p>
+                    </div>
+                    <div class="description col-lg-4 col-md-5 col-12 ml-lg-auto mr-lg-auto">
+                        <p><i class="fa fa-arrow-right " ></i> Responsive Frontend </p>
+                        <p><i class="fa fa-arrow-right" ></i> Performance Optimization </p>
+                        <p><i class="fa fa-arrow-right" ></i> Hardware Integrations  </p>
+                        <p><i class="fa fa-arrow-right" ></i> Scalable Fronend and backend </p>
+                        <p><i class="fa fa-arrow-right" ></i> Scalable Fronend and backend</p>
+                        <p><i class="fa fa-arrow-right" ></i> Interactive prototype and Animation </p>
+                    </div><!--//partner-->
+                </div><!--//row-->
             </div><!--//row-->
-        </div><!--//row-->
-    </section><!--//job-->
-    
-    <section class="join-us section">
-        <div class="container">
-           <div class="row RDD">
-                <div class="info col-lg-7 col-md-6 col-12">
-                    <h3 class="name">Product Design</h3>
-                    <h4 class="role">PEOPLE DONT BUY FEATURES, THEY BUY EXPERIENCE</h4>
-                    <p class="description">We deliver the product by going through certain proedures involing the delivery of the solutons to portenitai problems. Based on meticulously done research and collected dat; we design the product with precision, while also adding a bit of magic!</p>
-                </div>
-                <div class="partner col-lg-4 col-md-5 col-12 ml-lg-auto mr-lg-auto">
-                    <p><i class="fa fa-arrow-right " ></i> Responsive Frontend </p>
-                    <p><i class="fa fa-arrow-right" ></i> Performance Optimization </p>
-                    <p><i class="fa fa-arrow-right" ></i> Hardware Integrations  </p>
-                    <p><i class="fa fa-arrow-right" ></i> Scalable Fronend and backend </p>
-                    <p><i class="fa fa-arrow-right" ></i> Scalable Fronend and backend</p>
-                    <p><i class="fa fa-arrow-right" ></i> Interactive prototype and Animation </p>
-                </div><!--//partner-->
-            </div><!--//row-->
-        </div><!--//row-->
-    </section><!--//job-->
-    
+        </section><!--//job-->
+
+        <section class="join-us section">
+                <div class="container">
+                    <div class="row RDD">
+                        <div class="info col-lg-7 col-md-6 col-12">
+                            <h3 class="name">Product Design</h3>
+                            <!-- <h4 class="role">PEOPLE DONT BUY FEATURES, THEY BUY EXPERIENCE</h4> -->
+                            <p>PEOPLE DONT BUY FEATURES, THEY BUY EXPERIENCE</p>
+                            <p class="description">We deliver the product by going through certain proedures involing the delivery of the solutons to portenitai problems. Based on meticulously done research and collected dat; we design the product with precision, while also adding a bit of magic!</p>
+                        </div>
+                        <div class="description col-lg-4 col-md-5 col-12 ml-lg-auto mr-lg-auto">
+                            <p><i class="fa fa-arrow-right " ></i> Responsive Frontend </p>
+                            <p><i class="fa fa-arrow-right" ></i> Performance Optimization </p>
+                            <p><i class="fa fa-arrow-right" ></i> Hardware Integrations  </p>
+                            <p><i class="fa fa-arrow-right" ></i> Scalable Fronend and backend </p>
+                            <p><i class="fa fa-arrow-right" ></i> Scalable Fronend and backend</p>
+                            <p><i class="fa fa-arrow-right" ></i> Interactive prototype and Animation </p>
+                        </div><!--//partner-->
+                    </div><!--//row-->
+                </div><!--//row-->
+            </section><!--//job-->
+            
+            <!-- Contact Us to Start Project Section -->
+
+
+            <div class="container startPro" >
+
+                    <div class="row ">
+        
+                       <div class="col-lg-12 text-center">
+                            <p style = "color: #797979; font-size : 26px;">Lets make something great togather</p>
+                       </div>
+        
+                    </div>
+                    <div class="row">
+        
+                            <div class="col-lg-12 text-center">
+                                    <span class="super">Start a Project.</span> 
+                       </div>
+            </div>
+                   
+            </div>  
+
+           <!-- <div class="line col-lg-8"></div> -->
+
     <footer class="footer">
             <div class="footer-content">
                 <div class="container">
@@ -251,6 +289,10 @@
                 </div><!--//container-->
             </div><!--//bottom-bar-->
         </footer><!--//footer-->
+
+
+ 
+
     <!-- Contact Modal -->
     <div class="modal modal-contact" id="modal-contact" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
         <div class="modal-dialog">

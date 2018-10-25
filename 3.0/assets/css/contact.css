@@ -1,0 +1,94 @@
+body{
+    margin : 0;
+    padding : 0;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 114px 816px 359px;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+    ;
+}
+
+header{
+    grid-area: header;
+    background: #292929;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas:
+    "logo navigation"
+    ;
+}
+
+.logo{
+
+    position: relative;
+    
+    width: 100%;
+    /* height: 114px; */
+    background: url(siga.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* height: 114px; */
+    /* background-color: #292929; */
+    /* padding: 0; */
+            
+
+}
+ /* .logo img{
+     position: relative;
+     width: auto;
+    margin: -266px 0px -129px -71px;
+}  */
+.toggle{
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 26px;
+    padding: 5px;
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+.navigation{
+      height: 114px;
+      background-color: #292929;
+    
+}
+.navigation ul{
+    position: relative;
+    display: flex;
+    float: right;
+    margin-right: 135px;
+}
+.navigation ul li{
+        list-style: none;
+}
+
+.navigation ul li a{
+    position: relative;
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-family:Source Sans Pro ;
+    color: #FFFFFF;
+    font-weight: 500;
+    opacity: 0.87;
+    transition: 0.5s;
+
+}
+.navigation ul li a:hover{
+    background-color: aqua;
+}
+
+.main{
+    grid-area: main;
+    background-color: #292929;
+}
+
+footer{
+    grid-area: footer;
+    background: antiquewhite;
+}

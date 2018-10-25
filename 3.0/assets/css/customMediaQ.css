@@ -20,7 +20,14 @@
    
    
    
-    .mediaQueryTest{
+    .mdLogoEffect
+    {
+        width: 400px;
+        height: 400px;
+        margin-left: -5em;
+        margin-top: -13em;
+        padding-left: 5em;
+        padding-top: 13em;
 
     }
    

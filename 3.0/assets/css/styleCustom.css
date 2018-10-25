@@ -1,0 +1,29 @@
+.line {
+
+    width: 1100px;
+    height: 2px;
+    background-color: #353535;
+    margin: auto;
+    margin-bottom: 100px;
+   
+   
+  }
+  .startPro .row .super {
+    font-weight:normal;
+    margin-bottom:5px;
+    border-bottom: 5px solid #E7D16E;
+   font-size: 64px;
+    display: inline-block;
+     color: #F8F8F8
+  }
+  .startPro{
+    margin-top: 193px;
+    margin-bottom: 156px;
+  }
+
+  .responsive{
+      background-color: aqua;
+      width: 100%;
+      height: auto;
+      
+  }

@@ -1,0 +1,13 @@
+.super {
+    font-weight:normal;
+    margin-bottom:5px;
+    border-bottom: 5px solid #E7D16E;
+   font-size: 64px;
+    display: inline-block;
+     color: #F8F8F8
+  }
+
+  .startPro{
+      margin-top: 0px;
+      margin-bottom: 0px;
+  }
