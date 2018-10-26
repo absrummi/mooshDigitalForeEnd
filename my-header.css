@@ -1,0 +1,45 @@
+body,h1,p{
+    background-color: transarent;
+}
+.my-header{
+    width: 100%;
+    height: 764px;
+}
+.my-header{
+    /* background: rgba(0, 0, 0, 0.3); */
+    background-color: transparent;
+}
+.my-header .container{
+    background-color: transparent;
+    width: 100%;
+    /* background: rgba(0, 0, 0, 0.3); */
+    /* position: absolute; */
+    /* z-index: -22; */
+    top:0;
+}
+.my-header .container .navbar{
+    background-color: transparent;
+    /* background: rgba(0, 0, 0, 0.3); */
+}
+.my-header > img{
+    width: 100%;
+    height: 764px;
+}
+.my-headerSimple{
+    width: 100%;
+}
+
+.my-header .container .navbar .wrapper-content .btnBorder{
+    border: 2px solid #FFFFFF;
+    border-radius:20px;
+
+
+}
+.my-header .container .navbar .wrapper-content .navigatThough > ul {
+
+    /* background: aqua; */
+    /* display: flex;
+    justify-content: space-around; */
+
+
+}

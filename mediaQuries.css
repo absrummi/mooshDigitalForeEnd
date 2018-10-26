@@ -1,0 +1,47 @@
+@media (max-width: 575.98px) {
+    
+    .mediaQueryTest{
+        visibility:hidden;
+    }
+    .container-fluid .headPage .col-sm-6{
+        background-color: aqua;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+
+    .mediaQueryTest{
+        visibility:hidden;
+    }
+    .container-fluid .headPage .col-sm-6{
+        background-color: aqua;
+    }
+ }
+
+ @media (min-width: 768px) and (max-width: 991.98px) {
+   
+    .container-fluid .headPage .col-sm-6{
+        background-color: aqua;
+    }
+   
+    .mediaQueryTest{
+
+    }
+   
+   }
+ @media (min-width:  992px) { 
+
+    /* .oval {
+        width: 400px;
+        height: 200px;
+        background: #e9337c;
+        -webkit-border-radius: 100px / 50px;
+        -moz-border-radius: 100px / 50px;
+        border-radius: 200px / 100px;
+    } */
+    .mediaQueryTest{
+   
+    }
+  }
